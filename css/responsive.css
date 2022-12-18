@@ -1,0 +1,67 @@
+@media(min-width: 768px) and (max-width: 991px){
+    #banner {
+        height: 500px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+    #banner {
+        height: 200px;
+    }
+}
+/* banner tag lg */
+@media(min-width: 768px) and (max-width: 991px){
+    #banner h6 {
+        font-size: 15px;
+        line-height: 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    #banner h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    #banner p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+}
+
+/* banner lg end */
+
+/* banner mid start */
+
+@media(min-width: 320px) and (max-width: 767px){
+    #banner h6 {
+        font-size: 9px;
+        line-height: 10px;
+        padding-top: 40px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+    #banner h1 {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 5px 0;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+    #banner p {
+        font-size: 4px;
+        line-height: 15px;
+        padding-bottom: 12px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+    #banner button {
+        font-size: 10px;
+        line-height: 15px;
+    }
+}

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primaryColor: #FF6F61;
+    --secondarycolor: #1D1D1D;
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--primaryFont);
+}
+
+/* common css end */
+
+/* nav bar start */
+nav #customNav a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #11161E;
+    padding: 42px 22px;
+}
+
+nav #customNav li:hover a{
+    color: var(--primaryColor);
+}
+
+
+nav .icons li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+nav .icons li a{
+   color: #11161E;
+   position: relative;
+}
+
+nav .icons li a .overlay{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 400;
+    width: 15px;
+    height: 15px;
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    right: -9px;
+    top: -1px;
+}
+
+#smallMenu .menu a{
+    color: #151A32;
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+} 
+
+#smallMenu .menu li:focus a{
+    color: var(--primaryColor);
+}
+
+.smallMenuButton{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+/* nav bar end */
+
+/* banner start */
+#banner{
+    background-image: url(../img/banner.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h6{
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--secondarycolor);
+    padding-top: 242px;
+}
+
+#banner h1{
+    font-family: var(--primaryFont);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    color: var(--secondarycolor);
+    padding: 25px 0;
+}
+
+#banner p{
+    font-family: var(--secondaryFont);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--secondarycolor);
+    padding-bottom: 40px;
+}
+
+#banner button{
+    font-family: var(--primaryFont);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    background: #FF6F61;
+    color: #FFFFFF;
+} 
+/* banner end */
+ 
